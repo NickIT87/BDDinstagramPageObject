@@ -1,0 +1,12 @@
+<testsuite errors="0" failures="0" hostname="DESKTOP-OD063PR" name="features.login.Authorization in an instagram" skipped="0" tests="1" time="6.107705" timestamp="2018-03-11T16:22:56.523117"><testcase classname="features.login.Authorization in an instagram" name="Check positive login functionality -- @1.1 By valid users" status="passed" time="6.107705"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Check positive login functionality -- @1.1 By valid users
+    Given I am on authorization page ... passed in 3.596s
+    Then Login as valid user, use data mrfox7315, avtocvet ... passed in 2.489s
+    When The authorization was successful, we can see the mrfox7315 page ... passed in 0.023s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

@@ -1,0 +1,2 @@
+behave --color --junit
+junit-viewer --results=file_or_folder_location --save=file_location.html
